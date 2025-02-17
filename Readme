@@ -1,0 +1,38 @@
+
+### Models used 
+
+Model	param
+qwen2.5:0.5b	0.5b
+tinyllama	1.1b
+deepseek-r1:1.5b	1.5b
+Gemma:2b	2b
+llama3.2:latest	3b
+Gemma	3b
+codellama	7b
+qwen2.5-coder	7b
+mistral	7b
+
+
+### Questions
+1. Give me a skin care routine
+2. you are a skin care specialist and I want your advice on which days and when to use which products toner, hyaluronic acid, niacinamide, retinol, vitamin c , salicylic acid
+3. Give me some information of kiwi fruit. Its Nutritional value, where is it most grown etc.
+4. can you summarize the text - Interest rates measure the time value of money, although risk differences in financial securities lead to   differences in their equilibrium interest rates. Equilibrium interest rates are the required rate of return for a particular investment, in the sense that the market rate of return is the return that investors and savers require to get them to willingly lend their funds. 
+   Interest rates are also referred to as discount rates and, in fact, the terms are often used interchangeably. If an individual can borrow funds at an interest rate of 10%, then that individual should discount payments to be made in the future at that rate to get their equivalent value in current dollars or other currencies. 
+   Finally, we can also view interest rates as the opportunity cost of current consumption. If the market rate of interest on 1-year securities is 5%, earning an additional 5% is the opportunity forgone when current consumption is chosen rather than saving (postponing consumption).
+The real risk-free rate of interest is a theoretical rate on a single-period loan that contains no expectation of inlation and zero probability of default. What the real risk-free rate represents in economic terms is time preference, the degree to which current consumption is preferred to equal future consumption.
+When we speak of a real rate of return, we are referring to an investor’s increase in purchasing power (after adjusting for inflation). Because expected inflation in future periods is not zero, the rates we observe on U.S. Treasury bills (T-bills), for example, are essentially risk-free rates, but not real rates of return. T-bill rates are nominal risk-free rates because they contain an inflation premium. This is the relation:
+(1 + nominal risk-free rate) = (1 + real risk-free rate)(1 + expected infation rate)
+Often, including in many parts of the CFA curriculum, this relation is approximated as follows:
+nominal risk-free rate ≈ real risk-free rate + expected inlation rate"
+5. Solve the equation 2x + 3 = 7
+6. check the data type value in for loop is number or not. If number convert to int if not continue as string. python code
+7. I have a all wheel drive car and my rear wheel got punctured my stepney size is thin than actual tyres. so where should I put the stepney,  replace the punctured one or should I remive one of the front tires and put that to back and put the stepney to front"
+8. I have a xlsx file with a column which has date values out of which there are three values as 01/00/1900 so when I try to read it using pandas it reads the column as object instead of date which breaks it later instead I want to handle this error or consider such values as null"
+9. "df['column_name'] = df['column_name'].apply(lambda x: pd.to_datetime(x) if pd.isnull(x) else x)
+
+The `apply` method is then used to apply an additional check: if the value is not already NaN (using `pd.isnull(x)`), it's converted to a datetime object using `pd.to_datetime`. If the value is already NaN, no conversion is applied and it remains NaN.
+Do you think above code is wrong as per the statement"
+10. Getting an error in Git. error is "the following untracked working tree files would be overwritten by merge git error
+11. MVC acchitecture or folder structure for AI application
+12. write a sql query to find employees whose salary is greater than their manager
